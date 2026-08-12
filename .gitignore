@@ -1,0 +1,16 @@
+data/*.npy
+data/processed/
+data/*.npz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+
+# Notebooks ejecutados
+notebooks/executed_*.ipynb
