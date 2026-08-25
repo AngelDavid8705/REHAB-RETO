@@ -1,0 +1,321 @@
+{
+  "summary": {
+    "N_train": 2979,
+    "time_steps": 880,
+    "channels": 12,
+    "total_data_points": 31458240,
+    "memory_mb": 240.00732421875,
+    "nan_count": 0,
+    "inf_count": 0,
+    "zero_count": 531770,
+    "zero_pct": 1.6903997172124061,
+    "classes_count": 15,
+    "min_class_samples": 148,
+    "max_class_samples": 269,
+    "imbalance_ratio": 1.8175675675675675,
+    "shannon_entropy": 2.6975394432435453
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "movement_name": "Bobath Handshake",
+      "train_samples": 162,
+      "train_pct": 5.438066465256798,
+      "full_samples": 232
+    },
+    {
+      "class_id": 1,
+      "movement_name": "Bobath Flexion/Extension",
+      "train_samples": 148,
+      "train_pct": 4.968110104061766,
+      "full_samples": 212
+    },
+    {
+      "class_id": 2,
+      "movement_name": "Bobath Forward Flexion/Ext.",
+      "train_samples": 187,
+      "train_pct": 6.277274253105068,
+      "full_samples": 267
+    },
+    {
+      "class_id": 3,
+      "movement_name": "Bobath Ant./Post. Rotation",
+      "train_samples": 176,
+      "train_pct": 5.9080228264518295,
+      "full_samples": 250
+    },
+    {
+      "class_id": 4,
+      "movement_name": "Elbow Flex. & Wrist Comp.",
+      "train_samples": 201,
+      "train_pct": 6.747230614300101,
+      "full_samples": 287
+    },
+    {
+      "class_id": 5,
+      "movement_name": "Wrist Flexion & Extension",
+      "train_samples": 205,
+      "train_pct": 6.881503860355824,
+      "full_samples": 293
+    },
+    {
+      "class_id": 6,
+      "movement_name": "Finger-to-Finger Training",
+      "train_samples": 182,
+      "train_pct": 6.109432695535415,
+      "full_samples": 260
+    },
+    {
+      "class_id": 7,
+      "movement_name": "Ball Gripping",
+      "train_samples": 269,
+      "train_pct": 9.029875797247398,
+      "full_samples": 385
+    },
+    {
+      "class_id": 8,
+      "movement_name": "Shoulder Int./Ext. Rotation",
+      "train_samples": 209,
+      "train_pct": 7.015777106411547,
+      "full_samples": 299
+    },
+    {
+      "class_id": 9,
+      "movement_name": "Breast Expansion",
+      "train_samples": 215,
+      "train_pct": 7.2171869754951326,
+      "full_samples": 307
+    },
+    {
+      "class_id": 10,
+      "movement_name": "Flex.-Press. Rot. Fwd/Back",
+      "train_samples": 217,
+      "train_pct": 7.284323598522994,
+      "full_samples": 311
+    },
+    {
+      "class_id": 11,
+      "movement_name": "Elbow Joint Flex. & Touch",
+      "train_samples": 165,
+      "train_pct": 5.53877139979859,
+      "full_samples": 235
+    },
+    {
+      "class_id": 12,
+      "movement_name": "Shoulder Touch Training",
+      "train_samples": 205,
+      "train_pct": 6.881503860355824,
+      "full_samples": 293
+    },
+    {
+      "class_id": 13,
+      "movement_name": "Ankle Ext. & Knee Rot.",
+      "train_samples": 219,
+      "train_pct": 7.351460221550855,
+      "full_samples": 313
+    },
+    {
+      "class_id": 15,
+      "movement_name": "Hip Flexion & Extension",
+      "train_samples": 219,
+      "train_pct": 7.351460221550855,
+      "full_samples": 313
+    }
+  ],
+  "channels": [
+    {
+      "channel_idx": 0,
+      "channel_name": "IMU1_Pitch",
+      "sensor_type": "IMU Euler",
+      "mean": 1.253299463728945e-16,
+      "std": 22.584867255212714,
+      "median": 0.0,
+      "iqr": 21.32726531249999,
+      "min": -107.06705045454547,
+      "max": 125.63642,
+      "skewness": 0.17780041035051988,
+      "kurtosis": 1.1665745991706293,
+      "outliers_pct": 7.5485596142695846,
+      "zero_pct": 1.779120510238335
+    },
+    {
+      "channel_idx": 1,
+      "channel_name": "IMU1_Yaw",
+      "sensor_type": "IMU Euler",
+      "mean": -4.475449988125505e-17,
+      "std": 29.785567772304155,
+      "median": -0.03611681818181818,
+      "iqr": 17.221428125000003,
+      "min": -787.2894553409093,
+      "max": 301.87360306818186,
+      "skewness": -0.9279717594487533,
+      "kurtosis": 25.545931102131483,
+      "outliers_pct": 14.721878909945374,
+      "zero_pct": 1.779120510238335
+    },
+    {
+      "channel_idx": 2,
+      "channel_name": "IMU1_Roll",
+      "sensor_type": "IMU Euler",
+      "mean": -2.1249714090905984e-17,
+      "std": 32.30305086389458,
+      "median": 0.0,
+      "iqr": 21.91824170454545,
+      "min": -847.3452365909093,
+      "max": 310.36546852272727,
+      "skewness": -0.9245003302492593,
+      "kurtosis": 21.081169035573446,
+      "outliers_pct": 13.90658854405078,
+      "zero_pct": 1.779120510238335
+    },
+    {
+      "channel_idx": 3,
+      "channel_name": "IMU2_Pitch",
+      "sensor_type": "IMU Euler",
+      "mean": -1.6514063522075507e-16,
+      "std": 23.063167315123856,
+      "median": 0.38772215909090857,
+      "iqr": 25.065727244318182,
+      "min": -101.07786545454547,
+      "max": 87.04415147727273,
+      "skewness": -0.29781782523250244,
+      "kurtosis": 0.4033494086567049,
+      "outliers_pct": 3.886981598461961,
+      "zero_pct": 1.779120510238335
+    },
+    {
+      "channel_idx": 4,
+      "channel_name": "IMU2_Yaw",
+      "sensor_type": "IMU Euler",
+      "mean": -3.881325328849154e-18,
+      "std": 23.28018369428096,
+      "median": -0.01306386363636364,
+      "iqr": 11.982168267045454,
+      "min": -606.1859135227273,
+      "max": 870.0058625,
+      "skewness": 1.551852185806023,
+      "kurtosis": 82.1344234947137,
+      "outliers_pct": 16.582898471115996,
+      "zero_pct": 1.779120510238335
+    },
+    {
+      "channel_idx": 5,
+      "channel_name": "IMU2_Roll",
+      "sensor_type": "IMU Euler",
+      "mean": -2.05124791122419e-17,
+      "std": 18.141020566376113,
+      "median": 0.0,
+      "iqr": 9.280192840909091,
+      "min": -459.06927,
+      "max": 864.7015514772728,
+      "skewness": -0.10299817948103251,
+      "kurtosis": 90.02034701234943,
+      "outliers_pct": 14.315587903201196,
+      "zero_pct": 1.8462571332661968
+    },
+    {
+      "channel_idx": 6,
+      "channel_name": "Glove_Thumb",
+      "sensor_type": "Flex Sensor",
+      "mean": 3.250772588274107e-16,
+      "std": 10.9747584610897,
+      "median": 0.22443181818181301,
+      "iqr": 5.303977272727263,
+      "min": -106.91363636363636,
+      "max": 100.38659090909091,
+      "skewness": -1.287306081778277,
+      "kurtosis": 15.6758338107887,
+      "outliers_pct": 19.144770972565535,
+      "zero_pct": 1.5778632243889041
+    },
+    {
+      "channel_idx": 7,
+      "channel_name": "Glove_Index",
+      "sensor_type": "Flex Sensor",
+      "mean": 2.1006860215581344e-16,
+      "std": 12.611405983330329,
+      "median": 0.3095454545454501,
+      "iqr": 7.967159090909092,
+      "min": -107.00454545454546,
+      "max": 98.11704545454548,
+      "skewness": -1.136035695180017,
+      "kurtosis": 8.759347629966229,
+      "outliers_pct": 14.068898959382341,
+      "zero_pct": 1.5787024321767522
+    },
+    {
+      "channel_idx": 8,
+      "channel_name": "Glove_Middle",
+      "sensor_type": "Flex Sensor",
+      "mean": -2.3591519317250725e-17,
+      "std": 11.538392584098649,
+      "median": 0.28761363636363413,
+      "iqr": 8.295454545454547,
+      "min": -106.89431818181818,
+      "max": 104.01477272727273,
+      "skewness": -0.8816784102466517,
+      "kurtosis": 6.966316670896823,
+      "outliers_pct": 13.229920046385304,
+      "zero_pct": 1.5791220360706766
+    },
+    {
+      "channel_idx": 9,
+      "channel_name": "Glove_Ring",
+      "sensor_type": "Flex Sensor",
+      "mean": 1.752017243413473e-16,
+      "std": 11.918765674901817,
+      "median": 0.30170454545454106,
+      "iqr": 8.632642045454546,
+      "min": -106.64250000000003,
+      "max": 83.04340909090911,
+      "skewness": -0.9576243807367648,
+      "kurtosis": 6.250285544851222,
+      "outliers_pct": 13.10442033629345,
+      "zero_pct": 1.635501541090665
+    },
+    {
+      "channel_idx": 10,
+      "channel_name": "Glove_Pinky",
+      "sensor_type": "Flex Sensor",
+      "mean": 2.582924431131348e-16,
+      "std": 11.158815294619956,
+      "median": 0.2663636363636499,
+      "iqr": 6.871022727272727,
+      "min": -106.89886363636364,
+      "max": 90.99090909090907,
+      "skewness": -0.8910533030603909,
+      "kurtosis": 9.027086096042074,
+      "outliers_pct": 16.889743355000153,
+      "zero_pct": 1.593998901400714
+    },
+    {
+      "channel_idx": 11,
+      "channel_name": "Glove_Pitch",
+      "sensor_type": "Glove IMU",
+      "mean": -1.83875077031513e-16,
+      "std": 63.42155421355619,
+      "median": -0.027208984384684776,
+      "iqr": 64.16909076909556,
+      "min": -338.1724904331372,
+      "max": 348.4851870866753,
+      "skewness": 0.07934200660576138,
+      "kurtosis": 1.690573219590222,
+      "outliers_pct": 5.821622570111996,
+      "zero_pct": 1.5777487869632887
+    }
+  ],
+  "figures": {
+    "fig1": "reports/figures/fig1_dataset_overview_classes.png",
+    "fig2": "reports/figures/fig2_channel_distributions_box_violin.png",
+    "fig3": "reports/figures/fig3_temporal_kinematic_trajectories.png",
+    "fig4": "reports/figures/fig4_correlation_heatmaps.png",
+    "fig5": "reports/figures/fig5_sensor_interactions_scatter.png",
+    "fig6": "reports/figures/fig6_spectral_fft_analysis.png",
+    "fig7": "reports/figures/fig7_data_quality_anomalies_outliers.png",
+    "fig8": "reports/figures/fig8_pca_tsne_latent_space.png",
+    "pca_evr": [
+      0.27912125138813704,
+      0.26248013640702694
+    ]
+  }
+}
