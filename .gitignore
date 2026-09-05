@@ -12,5 +12,10 @@ venv/
 # Sistema
 .DS_Store
 
-# Notebooks ejecutados
+# Notebooks ejecutados y temporales
 notebooks/executed_*.ipynb
+notebooks/prueba_clase.ipynb
+
+# Renderizado de reportes
+reports/page_*.png
+
